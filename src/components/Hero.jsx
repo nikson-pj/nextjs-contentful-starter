@@ -14,6 +14,7 @@ export const Hero = (props) => {
         <div className="w-full max-w-xl mx-auto flex-1">
           <h1 className="mb-6 text-4xl font-bold sm:text-5xl" data-sb-field-path="heading">
             {props.heading}
+            <h1>hello world!</h1>
           </h1>
           {props.body && (
             <Markdown options={{ forceBlock: true }} className="mb-6 text-lg" data-sb-field-path="body">
